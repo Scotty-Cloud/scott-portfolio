@@ -1,5 +1,5 @@
 import React from 'react'
-// import './Footer.css'
+import './Footer.css'
 import { Container, Box } from '@mui/material'
 
 const Footer = props => {
