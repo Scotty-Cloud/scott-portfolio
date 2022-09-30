@@ -11,12 +11,12 @@ const Contact = () => {
       <Box textAlign="center" pt={{ xs: 3, sm: 1}} pb={{ xs: 3, sm: 0 }}>
         <Box borderTop={1} pt={3}>Contact</Box>
         <Tooltip title="Github">
-        <IconButton href='https://github.com/scotty-cloud'>
+        <IconButton href='https://github.com/scotty-cloud' target="_blank" rel="noopener noreferrer">
           <GitHubIcon />
         </IconButton>
       </Tooltip>
       <Tooltip title="LinkedIn">
-        <IconButton href='https://www.linkedin.com/in/scottyr/'>
+        <IconButton href='https://www.linkedin.com/in/scottyr/' target="_blank" rel="noopener noreferrer">
           <LinkedInIcon />
         </IconButton>
       </Tooltip>
