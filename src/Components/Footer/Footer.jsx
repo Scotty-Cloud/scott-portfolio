@@ -5,7 +5,7 @@ import { Container, Box } from '@mui/material'
 const Footer = props => {
   return (
     <Box >
-       <Container className='footer' maxWidth={false} style={{background: '#333333', position:'absolute'}}>
+       <Container className='footer' maxWidth={false} style={{position:'absolute'}}>
           <Box textAlign="center" pt={{ xs: 5, sm: 1}} pb={{ xs: 5, sm: 0 }}>
             Made By Scotty &reg; {new Date().getFullYear()}
           </Box>

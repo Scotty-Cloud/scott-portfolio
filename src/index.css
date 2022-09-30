@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap');
 body {
-  margin: 0;
+  margin: auto;
   font-family: 'Lexend Peta', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('./Assets/landing-bg5.jpg');
 }
 
 code {

@@ -7,8 +7,8 @@ import EmailIcon from '@mui/icons-material/Email';
 
 const Contact = () => {
   return (
-    <Container className='contact' maxWidth={false} style={{background:'#272625'}}>
-      <Box textAlign="center" pt={{ xs: 3, sm: 1}} pb={{ xs: 3, sm: 0 }}>
+    <Container className='contact' maxWidth={false}>
+      <Box textAlign="center" pt={{ xs: 3, sm: 1}} pb={{ xs: 3, sm: 0 }} className='contact-page'>
         <Box borderTop={1} pt={3}>Contact</Box>
         <Tooltip title="Github">
         <IconButton href='https://github.com/scotty-cloud' target="_blank" rel="noopener noreferrer">
