@@ -1,6 +1,6 @@
 import React from "react";
 import './Home.css'
-import { Box, Container} from '@mui/material'
+import { Box, Container } from '@mui/material'
 
 const Home = () => {
 return (
