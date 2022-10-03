@@ -1,17 +1,20 @@
-import './App.css';
-import Home from './Components/Home/Home'
-import Footer from './Components/Footer/Footer'
-import { Route, Routes, Navigate } from 'react-router-dom';
-import React from 'react';
+import React from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
+import "./styles/App.css";
+
+//Components
+import Landing from "./Components/Landing/Landing";
+import Footer from "./Components/Footer/Footer"
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={<Home />}/>
+      <Route path="/" element={<Landing /> }
+          />
         <Route path="*" element={<Navigate to="/"/>} />
       </Routes>
-      <Footer />
+      { <Footer /> }
     </div>
   );
 }

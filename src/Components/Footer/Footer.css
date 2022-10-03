@@ -1,3 +1,7 @@
-.footer{
+.Footer{
   color: #d4a373;
+  position:absolute;
+  left: 0;
+  right: 0;
+  bottom: 5px;
 }

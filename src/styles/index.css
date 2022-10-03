@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap');
 body {
-  margin: auto;
+  margin: 0;
   font-family: 'Lexend Peta', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('./Assets/landing-bg5.jpg');
+  
+  background: url('../assets/Landing.jpg');
   background-size: cover;
-  background-position: center;
+  background-position:inherit;
   background-repeat: no-repeat;
 }
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

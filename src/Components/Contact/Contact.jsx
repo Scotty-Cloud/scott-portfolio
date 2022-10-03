@@ -3,7 +3,6 @@ import { Box, Container, Tooltip, IconButton } from "@mui/material";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import EmailIcon from '@mui/icons-material/Email';
-// import './Contact.css'
 
 const Contact = () => {
   return (
@@ -33,3 +32,5 @@ const Contact = () => {
 
 
 export default Contact
+
+// Made By Scotty &reg; {new Date().getFullYear()}
