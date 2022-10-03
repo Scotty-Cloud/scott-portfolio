@@ -6,9 +6,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   
   background: url('../assets/Landing.jpg');
-  background-size: cover;
-  background-position:inherit;
+
+  box-sizing: border-box;
+  background-attachment: fixed;
   background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 

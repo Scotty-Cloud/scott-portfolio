@@ -8,7 +8,7 @@ const Landing = () => {
     >
       <h1>Hi! I'm Scotty</h1>
         <p>Software Engineer, Hamster Enthusiast, Designer</p>
-        <Contact />
+      <Contact />
     </div>
   )
 }
