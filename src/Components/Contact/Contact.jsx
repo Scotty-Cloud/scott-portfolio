@@ -30,7 +30,4 @@ const Contact = () => {
   )
 }
 
-
 export default Contact
-
-// Made By Scotty &reg; {new Date().getFullYear()}
