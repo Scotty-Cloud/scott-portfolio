@@ -10,7 +10,7 @@ const Contact = () => {
     <Container className='contact' maxWidth={false}>
       <Box textAlign="center" pt={{ xs: 3, sm: 1}} pb={{ xs: 1, sm: 0 }} className='contact-page'>
         <div className="contact-me">
-        <Box borderTop={1} pt={3}>Contact</Box>
+        <Box  pt={3}>Contact</Box>
         </div>
         <Tooltip title="GitHub">
         <IconButton href='https://github.com/scotty-cloud' target="_blank" rel="noopener noreferrer">
