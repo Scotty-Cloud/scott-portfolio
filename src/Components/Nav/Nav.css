@@ -1,0 +1,10 @@
+.nav-buttons{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.nav-link:hover {
+  text-underline-offset: 1rem;
+  text-decoration: #333333 underline;
+}
