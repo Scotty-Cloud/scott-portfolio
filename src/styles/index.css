@@ -12,9 +12,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   
+  overflow: hidden;
 }
-
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

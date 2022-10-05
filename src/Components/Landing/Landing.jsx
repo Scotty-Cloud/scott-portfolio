@@ -1,4 +1,5 @@
 import React from "react";
+import './Landing.css'
 import Contact from '../Contact/Contact'
 
 const Landing = () => {

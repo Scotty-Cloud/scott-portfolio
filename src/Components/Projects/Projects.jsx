@@ -18,7 +18,6 @@ const Projects = (props) => {
       alignItems="center"
       justifyContent="center"
       style={{
-        
           height: '100vh',
       }}
     >

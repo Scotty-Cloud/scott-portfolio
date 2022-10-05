@@ -13,6 +13,9 @@ const theme = createTheme({
     palette: {
       primary:{
         main:'#AA8567'
+      },
+      secondary:{
+        main:"#D6B89F"
       }
 }})
 
@@ -22,6 +25,7 @@ const ProjectDisplay = (props) => {
       <CardMedia
         component="img"
         height="175"
+        background-color="#D6B89F"
         image={props.img}
         alt={props.alt}
       />

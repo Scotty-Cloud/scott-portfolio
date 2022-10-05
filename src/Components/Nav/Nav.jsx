@@ -9,17 +9,16 @@ const Nav = () => {
     <header className="navbar">
       <Box sx={{ flexGrow: 1}} className='inline-nav'>
           <Toolbar variant='dense' className="nav-buttons">            
-            <Link className='nav-link' underline="none" style={{color:'#272625', fontSize: '25px'}} href="/">
-              Home
+            <Link className='nav-link' underline="none" style={{color:'#272625', fontSize: '15px'}} href="/">
+              HOME
             </Link>
-            <Link className='nav-link' underline="none" style={{color:'#272625', fontSize: '25px'}} href="/about">
-              About
+            <Link className='nav-link' underline="none" style={{color:'#272625', fontSize: '15px'}} href="/about">
+              ABOUT</Link>
+            <Link className='nav-link' underline="none" style={{color:'#272625', fontSize: '15px'}} href="/projects">
+              WORKS
             </Link>
-            <Link className='nav-link' underline="none" style={{color:'#272625', fontSize: '25px'}} href="/projects">
-              Works
-            </Link>
-            <Link className='nav-link' underline="none" style={{color:'#272625', fontSize: '25px'}} href="/">
-              Resume
+            <Link className='nav-link' underline="none" style={{color:'#272625', fontSize: '15px'}} href="/">
+              RESUME
             </Link>
             </Toolbar>    
       </Box>
