@@ -5,7 +5,9 @@ import "./styles/App.css";
 //Components
 import Nav from "./Components/Nav/Nav";
 import Landing from "./Components/Landing/Landing";
+import About from "./Components/About/About"
 import Projects from "./Components/Projects/Projects"
+
 import Footer from "./Components/Footer/Footer";
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
        <Nav />
       <Routes>
         <Route path="/" element={<Landing /> } />
+        <Route path='/about' element={<About/>} />
         <Route path='/projects' element={<Projects/>} />
         <Route path="*" element={<Navigate to="/"/>} />
       </Routes>
