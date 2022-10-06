@@ -17,15 +17,13 @@ const Projects = (props) => {
       direction="column"
       alignItems="center"
       justifyContent="center"
-      style={{
-          height: '100vh',
-      }}
+      style={{ height: '100vh'}}
     >
       <div className="title">
-        <h2 style={{ fontSize: "3rem", color: "#272625", padding:'1.5rem' }}>My Work</h2>
+        <h2 style={{ fontSize: "3rem", color: "", padding:'1.5rem' }}>My Work</h2>
       </div>
       <Box x={{ flexGrow: 1 }}className="displayCard">
-        <ProjectDisplay
+      <ProjectDisplay
           img={LFG}
           alt="img of LFG"
           title="LFG"

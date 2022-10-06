@@ -13,27 +13,23 @@ const theme = createTheme({
     palette: {
       primary:{
         main:'#AA8567'
-      },
-      secondary:{
-        main:"#D6B89F"
       }
 }})
 
 const ProjectDisplay = (props) => {
   return (
-    <Card sx={{ maxWidth: 300 }}>
+    <Card sx={{ maxWidth: 300 }} style={{ background: '#B2A48D'}}>
       <CardMedia
         component="img"
-        height="175"
-        background-color="#D6B89F"
+        height="175"   
         image={props.img}
         alt={props.alt}
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography gutterBottom variant="h5, lexend peta"  component="div" color= "#333333">
           {props.title}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant=" lexend peta" color="#695847">
           {props.description}
         </Typography>
       </CardContent>
