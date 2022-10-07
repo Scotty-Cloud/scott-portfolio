@@ -1,5 +1,7 @@
 import React from "react";
 import './Landing.css'
+import cloudTop from "../../assets/cloudTop.png";
+import cloudBottom from "../../assets/cloudBottom.png";
 import Contact from '../Contact/Contact'
 
 const Landing = () => {
@@ -10,6 +12,12 @@ const Landing = () => {
       <h1>Hi! I'm Scotty</h1>
         <p>Software Engineer, Hamster Enthusiast, Designer</p>
       <Contact />
+      <picture>
+          <img className="cloud-top" src={cloudTop} alt="cloud-logo" />
+        </picture> 
+      <picture>
+          <img className="cloud-bottom" src={cloudBottom} alt="cloud-logo" />
+        </picture> 
     </div>
   )
 }
