@@ -3,7 +3,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <p> hello dis is an about me coming soon!</p>
+    <p> hello im scoofie and i like to code and read!!</p>
   )
 }
 
