@@ -12,15 +12,3 @@
   margin-right: 150px;
 
 }
-
-.cloud-top {
-  float: right;
-  clear: right;
-  margin-top: -450px;
-}
-
-.cloud-bottom {
-  float: left;
-  clear: left;
-  margin-top: -250px;
-}
