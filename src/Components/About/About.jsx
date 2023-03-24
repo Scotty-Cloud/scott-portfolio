@@ -1,9 +1,13 @@
 import React from 'react'
-//import './About.css'
+import './About.css'
 
 const About = () => {
   return (
-    <p> hello im scoofie and i like to code and read!!</p>
+    <div
+    className="me"
+    >
+      <p>hello im scotty and i like to design</p>
+    </div>
   )
 }
 
