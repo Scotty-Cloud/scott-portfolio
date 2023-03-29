@@ -9,9 +9,16 @@ const About = () => {
     >
       <p>hello im scotty and i like to design
         <br/>
-          I like to DIY, Read Books on poettry
+          I like to DIY, Read Books on poetry
+          <br/>
+          I always had a passion for creating and building,
+          <br/>
+          whether it be webpages or architectures. 
+          <br/>
+          Which led  me to become a software engineer.
       </p>
     </div>
+    
   )
 }
 
