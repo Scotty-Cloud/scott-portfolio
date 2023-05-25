@@ -11,15 +11,14 @@ const About = () => {
         <br/>
           I like to DIY, Read Books on poetry
           <br/>
-          I always had a passion for creating and building,
+          I always had a passion for creating and building
           <br/>
-          whether it be webpages or architectures. 
-          <br/>
-          Which led  me to become a software engineer.
+          Which led me to become a software engineer.
       </p>
     </div>
     
   )
 }
+
 
 export default About
