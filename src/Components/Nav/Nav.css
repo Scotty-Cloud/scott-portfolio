@@ -1,7 +1,7 @@
 .nav-buttons{
   display: flex;
-  justify-content: space-around;
-
+  /* justify-content: space-around; */
+  justify-content: space-evenly;
 }
 
 .nav-link:hover {
