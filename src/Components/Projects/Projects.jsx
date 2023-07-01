@@ -30,7 +30,7 @@ const Projects = (props) => {
           img={PokeDex}
           alt="img of Pokedex"
           title="PokeDex"
-          description=""
+          description="The PokeDex is a great way to find out what base-stats a certain pokemon may have. Browse through all Nine generatoins of Pokemon with this Pokemon Encyclopedia."
           deployment="https://poke-dex-ruby.vercel.app/"
           github="https://github.com/Scotty-Cloud/poke-dex"
         />
@@ -62,7 +62,7 @@ const Projects = (props) => {
           img={PokemonMemoryGame}
           alt="img of PMG"
           title="Find That Unown"
-          description="A memory game themed off of pokemon. Flip the cards to find all the matching Unown Pokemons before the timer runs out. Built utilizing HTML, CSS and Vanilla JavaScript"
+          description="A memory game themed off of pokemon. Flip the cards to find all the matching Unown Pokemons before the timer runs out. Built utilizing HTML, CSS and Vanilla JavaScript."
           deployment="https://pokemonunown.netlify.app/"
           github="https://github.com/Scotty-Cloud/Pokemon-Memory-Game"
         />
