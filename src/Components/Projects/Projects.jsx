@@ -31,8 +31,8 @@ const Projects = (props) => {
           alt="img of Pokedex"
           title="PokeDex"
           description=""
-          deployment=""
-          github=""
+          deployment="https://poke-dex-ruby.vercel.app/"
+          github="https://github.com/Scotty-Cloud/poke-dex"
         />
       <ProjectDisplay
           img={Enso}
