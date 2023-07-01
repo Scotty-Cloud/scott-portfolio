@@ -29,7 +29,8 @@ const Projects = (props) => {
           img={Enso}
           alt="img of Enso"
           title="Enso"
-          description=""
+          description="Feeling down and want positive messages? Or simply just looking for new quotes to spread joy, This Discord Bot has it all. Use Slash Commands to recieve joyful messages to uplift your mood!"
+          deployment="https://github.com/Scotty-Cloud/Enso"
           github="https://github.com/Scotty-Cloud/Enso"
         />
       <ProjectDisplay
