@@ -1,12 +1,14 @@
 import React from 'react';
 import './Projects.css';
 import ProjectDisplay from './ProjectDisplay';
+import Enso from "../../assets/Enso.png";
 import LFG from "../../assets/LFG.png";
 import WHO from "../../assets/WHO.png";
 import PokemonMemoryGame from "../../assets/PokemonMemoryGame.png";
 import PinkCadillac from "../../assets/PinkCadillac.png";
 import Container from "@mui/material/Container";
 import { Box } from "@mui/material";
+import { EnergySavingsLeafOutlined } from '@mui/icons-material';
 
 const Projects = (props) => {
   return (
@@ -23,6 +25,13 @@ const Projects = (props) => {
         <h2 style={{ fontSize: "3rem", color: "", padding:'1.5rem' }}>My Work</h2>
       </div>
       <Box x={{ flexGrow: 1 }}className="displayCard">
+      <ProjectDisplay
+          img={Enso}
+          alt="img of Enso"
+          title="Enso"
+          description=""
+          github="https://github.com/Scotty-Cloud/Enso"
+        />
       <ProjectDisplay
           img={LFG}
           alt="img of LFG"
