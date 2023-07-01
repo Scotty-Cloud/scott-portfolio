@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.css';
 import ProjectDisplay from './ProjectDisplay';
+import PokeDex from "../../assets/PokeDex.png"
 import Enso from "../../assets/Enso.png";
 import LFG from "../../assets/LFG.png";
 import WHO from "../../assets/WHO.png";
@@ -25,6 +26,14 @@ const Projects = (props) => {
         <h2 style={{ fontSize: "3rem", color: "", padding:'1.5rem' }}>My Work</h2>
       </div>
       <Box x={{ flexGrow: 1 }}className="displayCard">
+      <ProjectDisplay
+          img={PokeDex}
+          alt="img of Pokedex"
+          title="PokeDex"
+          description=""
+          deployment=""
+          github=""
+        />
       <ProjectDisplay
           img={Enso}
           alt="img of Enso"
