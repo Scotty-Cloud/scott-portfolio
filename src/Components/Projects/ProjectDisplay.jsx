@@ -8,7 +8,6 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles'
 
-
 const theme = createTheme({
     palette: {
       primary:{
