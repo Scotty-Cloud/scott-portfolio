@@ -1,12 +1,15 @@
 import React from 'react';
 import './Projects.css';
 import ProjectDisplay from './ProjectDisplay';
+import PokeDex from "../../assets/PokeDex.png"
+import Enso from "../../assets/Enso.png";
 import LFG from "../../assets/LFG.png";
 import WHO from "../../assets/WHO.png";
 import PokemonMemoryGame from "../../assets/PokemonMemoryGame.png";
 import PinkCadillac from "../../assets/PinkCadillac.png";
 import Container from "@mui/material/Container";
 import { Box } from "@mui/material";
+import { EnergySavingsLeafOutlined } from '@mui/icons-material';
 
 const Projects = (props) => {
   return (
@@ -18,11 +21,28 @@ const Projects = (props) => {
       alignItems="center"
       justifyContent="center"
       style={{ height: '100vh'}}
+      
     >
       <div className="title">
         <h2 style={{ fontSize: "3rem", color: "", padding:'1.5rem' }}>My Work</h2>
       </div>
       <Box x={{ flexGrow: 1 }}className="displayCard">
+      <ProjectDisplay
+          img={PokeDex}
+          alt="img of Pokedex"
+          title="PokeDex"
+          description="The PokeDex is a great way to find out what base-stats a certain pokemon may have. Browse through all Nine generatoins of Pokemon with this Pokemon Encyclopedia."
+          deployment="https://poke-dex-ruby.vercel.app/"
+          github="https://github.com/Scotty-Cloud/poke-dex"
+        />
+      <ProjectDisplay
+          img={Enso}
+          alt="img of Enso"
+          title="Enso"
+          description="Feeling down and want positive messages? Or simply just looking for new quotes to spread joy, This Discord Bot has it all. Use Slash Commands to recieve joyful messages to uplift your mood!"
+          deployment="https://github.com/Scotty-Cloud/Enso"
+          github="https://github.com/Scotty-Cloud/Enso"
+        />
       <ProjectDisplay
           img={LFG}
           alt="img of LFG"
@@ -43,7 +63,7 @@ const Projects = (props) => {
           img={PokemonMemoryGame}
           alt="img of PMG"
           title="Find That Unown"
-          description="A memory game themed off of pokemon. Flip the cards to find all the matching Unown Pokemons before the timer runs out. Built utilizing HTML, CSS and Vanilla JavaScript"
+          description="A memory game themed off of pokemon. Flip the cards to find all the matching Unown Pokemons before the timer runs out. Built utilizing HTML, CSS and Vanilla JavaScript."
           deployment="https://pokemonunown.netlify.app/"
           github="https://github.com/Scotty-Cloud/Pokemon-Memory-Game"
         />

@@ -18,7 +18,7 @@ const Contact = () => {
         </IconButton>
       </Tooltip>
       <Tooltip title="LinkedIn">
-        <IconButton href='https://www.linkedin.com/in/scottyr/' target="_blank" rel="noopener noreferrer">
+        <IconButton href='https://www.linkedin.com/in/scottadamr/' target="_blank" rel="noopener noreferrer">
           <LinkedInIcon />
         </IconButton>
       </Tooltip>

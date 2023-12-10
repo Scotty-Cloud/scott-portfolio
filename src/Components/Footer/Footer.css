@@ -1,7 +1,9 @@
 .Footer{
   color: #d4a373;
-  position:absolute;
+  text-align: center;
+  position:fixed;
   left: 0;
-  right: 0;
-  bottom: 5px;
+  right: 0; 
+  bottom: 5px; 
 }
+  

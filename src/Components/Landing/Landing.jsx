@@ -6,18 +6,12 @@ import Contact from '../Contact/Contact'
 
 const Landing = () => {
   return (
-    <div
-    className="landing"
-    >
-      <h1>Hi! I'm Scotty</h1>
+    <div className="landing">
+      <div className="welcome">
+        <h1>Hi! I'm Scotty</h1>
         <p>Software Engineer, Hamster Enthusiast, Designer</p>
       <Contact />
-      <picture>
-          <img className="cloud-top" src={cloudTop} alt="cloud-logo" />
-        </picture> 
-      <picture>
-          <img className="cloud-bottom" src={cloudBottom} alt="cloud-logo" />
-        </picture> 
+      </div>
     </div>
   )
 }
